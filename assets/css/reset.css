@@ -1,0 +1,76 @@
+/* ============================================================
+   RESET — Box Model
+   Force consistent sizing across all elements
+   ============================================================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ============================================================
+   RESET — Margin & Padding
+   Remove browser default spacing
+   ============================================================ */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   RESET — HTML & Body
+   Ensure full height and consistent text rendering
+   ============================================================ */
+
+html {
+  -webkit-text-size-adjust: 100%;
+  tab-size: 4;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* ============================================================
+   RESET — Media Elements
+   Make media elements block-level and responsive by default
+   ============================================================ */
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* ============================================================
+   RESET — Form Elements
+   Inherit font styles from parent — browsers don't do this by default
+   ============================================================ */
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* ============================================================
+   RESET — Text Overflow
+   Prevent text from breaking layouts
+   ============================================================ */
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
