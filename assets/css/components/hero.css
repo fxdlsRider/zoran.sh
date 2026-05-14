@@ -1,0 +1,27 @@
+/* ============================================================
+   COMPONENT — Hero
+   ============================================================ */
+
+   .hero {
+    padding: var(--space-6) 0;
+  }
+  
+  .hero__greeting {
+    font-family: var(--font-accent);
+    font-size: 1.5rem;
+    color: var(--color-accent);
+    margin-bottom: var(--space-2);
+  }
+  
+  .hero__text {
+    font-size: 1.125rem;
+    color: var(--color-text);
+    max-width: 520px;
+    margin-bottom: var(--space-2);
+  }
+  
+  .hero__subtext {
+    font-size: 1rem;
+    color: var(--color-text-subtle);
+    max-width: 520px;
+  }
